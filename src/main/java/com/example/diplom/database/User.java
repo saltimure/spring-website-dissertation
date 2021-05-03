@@ -18,6 +18,13 @@ public class User {
     @Column(nullable = false,length = 64)
     private String password;
 
+    @Column(nullable = true,length = 30)
+    private String name;
+
+    public String getName() { return name; }
+
+    public void setName(String name) { this.name = name; }
+
     public long getId() {
         return id;
     }
