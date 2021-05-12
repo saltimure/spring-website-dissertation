@@ -21,31 +21,26 @@ public class User {
     @Column(nullable = true,length = 30)
     private String name;
 
+    @Column(nullable = true,length = 100)
+    private String comm;
+
+    public String getComm() { return comm; }
+
+    public void setComm(String comm) { this.comm = comm; }
+
     public String getName() { return name; }
 
     public void setName(String name) { this.name = name; }
 
-    public long getId() {
-        return id;
-    }
+    public long getId() { return id; }
 
-    public void setId(long id) {
-        this.id = id;
-    }
+    public void setId(long id) { this.id = id; }
 
-    public String getEmail() {
-        return email;
-    }
+    public String getEmail() { return email; }
 
-    public void setEmail(String email) {
-        this.email = email;
-    }
+    public void setEmail(String email) { this.email = email; }
 
-    public String getPassword() {
-        return password;
-    }
+    public String getPassword() { return password; }
 
-    public void setPassword(String password) {
-        this.password = password;
-    }
+    public void setPassword(String password) { this.password = password; }
 }
