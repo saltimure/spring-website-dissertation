@@ -5,77 +5,49 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"/>
     <style>
-        h1 {
-            margin-bottom: -15px; /* Отрицательный отступ между заголовком и текстом */
-        }
         body {
-            background: bisque;
-            background-size: cover;
+            background: url();
             background-repeat: no-repeat;
         }
-        a {
-            color: #a52a2a;
+        .blog-header {
+
         }
-        header.blog-header {
-            float: right;
-        }
-        main.container {
-            align-content: center;
-        }
-        nav.d-flex {
-            font-size: x-large;
-        }
-        a.btn {
-            font-size: large;
-        }
-        div.test {
-            padding: 10px;
-            text-align: center;
-            margin: auto;
-            width: 50%;
-            height: 50%;
+        .buttonsize{
+            font-size: medium;
         }
     </style>
 </head>
 <body>
-
+<header class="blog-header py-3 text-center">
+    <a class="font-weight-bold px-2 btn btn-sm btn-outline-dark buttonsize" href="/list_users">Гостевая книга</a>
+    <a class="font-weight-bold px-2 btn btn-sm btn-outline-dark buttonsize" href="/history">История школы</a>
+    <a class="font-weight-bold px-2 btn btn-sm btn-outline-dark buttonsize" href="/photos">Фотографии</a>
+    <a class="font-weight-bold px-2 btn btn-sm btn-outline-dark buttonsize" href="/contacts">Контакты</a>
+    <a class="font-weight-bold px-2 btn btn-sm btn-outline-dark buttonsize" href="/comments">Комментарии</a>
+    <a class="font-weight-bold px-2 btn btn-sm btn-outline-dark buttonsize" href="/login">Авторизоваться</a>
+    <a class="font-weight-bold px-2 btn btn-sm btn-outline-dark buttonsize" href="/signin">Зарегистрироваться</a>
+</header>
 <div class="container">
-    <header class="blog-header py-2">
-                <a class="btn btn-sm btn-outline-secondary" href="/list_users">Список всех пользователей</a>
-                <a class="btn btn-sm btn-outline-secondary" href="/signin">Зарегистрироваться</a>
-                <a class="btn btn-sm btn-outline-secondary" href="/login">Авторизоваться</a>
-    </header>
-    <div class="nav-scroller">
-        <nav class="nav d-flex">
-            <a class="p-2 link-secondary" href="/history">История школы</a>
-            <a class="p-2 link-secondary" href="#">Контакты</a>
-            <a class="p-2 link-secondary" href="#">Мероприятия</a>
-        </nav>
-    </div>
-</div>
-<div class="py-1 text-center">
-    <h1 class="display-3 py-4 fw-bold">МБУ СШ "ЧАЙКА"</h1>
-    <div class="col-lg-6 mx-auto">
-        <p class="lead mb-4">Дорогие друзья! на страницах сайта МБУ СШ "ЧАЙКА" г. Нижний Новгород
-            вы найдете исчерпывающую информацию о нашей спортивной школе, познакомитесь с пед. коллективом.
-        </p>
-    </div>
-    <img src="https://i.imgur.com/sVPaKU4.png" title="source: imgur.com" />
-</div>
-<main class="container">
-    <div class=>
-        <div>
-            <article class="blog-post">
-                <h3 class="blog-post-title py-2">Добро пожаловать на наш сайт!</h3>
-                <img src="https://i.imgur.com/uesxkGK.jpg" vspace="5" width="840" height="650" title="source: imgur.com" />
-                <img src="https://i.imgur.com/m1Yso4Z.jpg" vspace="5" width="840" height="650" title="source: imgur.com" />
-            </article>
-
+    <div class="text-center">
+        <h1 class="display-3 fw-bold">МБУ СШ "ЧАЙКА"</h1>
+        <div class="col-lg-7 mx-auto">
+            <p class="lead mb-4">Дорогие друзья! Добро пожаловать на наш сайт! На страницах сайта МБУ СШ "ЧАЙКА" г. Нижний Новгород
+                вы найдете исчерпывающую информацию о нашей спортивной школе.
+            </p>
         </div>
+        <img class="" src="https://i.imgur.com/sVPaKU4.png" title="source: imgur.com" />
     </div>
-</main>
-<div class="test">
-<p>© 2021</p>
+    <main class="text-center">
+        <div class=>
+            <div>
+                <article class="blog-post">
+                    <!--<img src="https://i.imgur.com/uesxkGK.jpg" vspace="5" width="840" height="650" title="source: imgur.com" />
+                    <img src="https://i.imgur.com/m1Yso4Z.jpg" vspace="5" width="840" height="650" title="source: imgur.com" />-->
+                </article>
+
+            </div>
+        </div>
+    </main>
 </div>
 </body>
 </html>
